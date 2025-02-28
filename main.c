@@ -4,6 +4,7 @@
 [[clang::export_name("actr_init")]]
 void actr_init(int w, int h)
 {
+    actr_2d_init();
     actr_ui_init(w, h);
 }
 
